@@ -1,0 +1,31 @@
+{
+  "name": "dotaconstants",
+  "version": "6.37.0",
+  "description": "Constant data for Dota 2 applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node tasks/updateconstants",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odota/dotaconstants.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odota/dotaconstants/issues"
+  },
+  "homepage": "https://github.com/odota/dotaconstants#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "async": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "simple-vdf": "^1.1.1"
+  }
+}

@@ -1,0 +1,20 @@
+<div class="contenedor">
+    <div class="galeria-contenedor">
+        <h1 id="title">Heroes de Dota 2</h1>
+        <div class="heroes-contenedor">
+            {{#each heros}}
+            <div class="item-hero" onclick="infoHero()">
+                <a href="#{{localized_name}}">
+                    <img src="http://cdn.dota2.com/{{img}}" alt="imageError">
+                </a>
+                <div class="hover-name">
+                    <p>{{localized_name}}</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="contenedor-hero-info">
+        <p id="name">lorem30</p>
+    </div>
+</div>

@@ -1,0 +1,191 @@
+.myBody{
+    margin: 0;
+    background-color: rgb(104, 104, 104);
+}
+/*Contenedor*/
+.contenedor{
+    display: flex;
+}
+
+/*Barra de navegacion*/
+.navbar{
+    width: 100%;
+    background-image: linear-gradient(rgb(46, 51, 51), rgb(119, 121, 122));
+}
+.navbar ul{
+    margin: 0;
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    font-size: 3vh; 
+    padding: 1vh 3vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(250, 252, 253);
+    padding: 1vh 3vh;
+}
+.navbar a:hover{
+    background-color: rgb(73, 75, 77);
+    color: rgb(153, 156, 160);
+}
+/*Pie de Pagina*/
+.footer-main{
+    width: 100%;
+    background-color: rgb(120, 121, 122);
+    position: static;
+    bottom: 0px;
+}
+.footer-main p{
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+}
+
+/* Seleccion de heroes imagens*/
+.galeria-contenedor{
+    background-color: rgb(46, 51, 51);
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.galeria-contenedor h1{
+    color: floralwhite;
+    text-align: center;
+    padding-top: 10px;
+}
+/*heroes-contenedor*/
+.heroes-contenedor{
+    background-color: rgb(46, 51, 51);
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+/* item hero*/
+.item-hero{
+    width: calc(11.11% - 8px);
+    margin: 3px;
+    border: 1px solid black;
+    position: relative;
+}
+.item-hero:hover{
+    transform: scale(1.8);
+    transition: 0.5s;
+    border: 1px solid white;
+    z-index: 20;
+}
+.item-hero:hover p{
+    visibility: visible;
+}
+.item-hero img{
+    width: 100%;
+    display: block;
+}
+.hover-name{
+    position: absolute;
+    top: 40px ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.hover-name p{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    visibility: hidden;
+    background-color: rgb(73, 75, 77);
+    width: max-content;
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+
+/*conteiner informacion de heroe*/
+.contenedor-info{
+    background-color: royalblue;
+    width: 25%;
+    position: relative;
+}
+.contenedor-info p{
+    color: white;
+}
+
+/*contenedor de info*/
+.contenedor-hero-info{
+    background-color: rgb(46, 51, 51);
+    width: 35%;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+}
+.contenedor-hero-info p{
+    color: violet;
+    text-align: center;
+}
+
+
+/**/
+.conteiner-lol{
+    display: flex;
+}
+
+.conteiner-hero{
+    background: rgb(35, 37, 37);
+    margin: 3em;
+    width: 900px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.conteiner-info{
+    margin: 3em;
+    border-radius: 15px;
+    background: blueviolet;
+    width: 800px;
+    height: 800px;
+}
+
+.item-hero-lol{
+    width: calc(12.5% - 2px);
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+}
+.item-hero-lol:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    z-index: 50;
+    border: 1px solid white;
+}
+
+.item-hero-lol:hover p{
+    visibility: visible;
+}
+ 
+.item-hero-lol img{
+    width: 100%;
+    display: block;
+}
+.item-hero-lol p{
+    margin: 0;
+    background: dimgray;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 6px;
+    font-size: 10px;
+    text-align: center;
+    visibility: hidden;
+    cursor: default;
+}
