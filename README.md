@@ -6,7 +6,7 @@ La idea es comparar 2 de juegos de la categoria MOBA (del inglés Multiplayer On
 
 - [Dota 2](https://es.dota2.com)
 
-si bien pertenecen a la misma categoria de juego existen muchas diferencias como personajes, mapa,objetos ,mecanicas,etc.
+si bien pertenecen existen muchas diferencias como personajes, mapa,objetos ,mecanicas,etc.
 
 # ¿que estoy tratando de aprender?
    - HTML,Css,javaScript (Front End).
